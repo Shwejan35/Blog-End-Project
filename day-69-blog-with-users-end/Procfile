@@ -1,0 +1,5 @@
+web: gunicorn main:app
+
+# This will tell the hosting provider to create a web worker that is able to receive http requests.
+# makes gunicorn to use this web app .
+
